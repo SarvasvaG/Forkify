@@ -83,5 +83,3 @@ export class View {
     this._parentElement.innerHTML = '';
   }
 }
-
-export { iconsImage };

@@ -1,5 +1,6 @@
 import { mark } from 'regenerator-runtime';
-import { View, iconsImage } from './View.js';
+import { View } from './View.js';
+import iconsImage from 'url:../../img/icons.svg';
 
 export default class PreviewView extends View {
   _generateMarkup() {
